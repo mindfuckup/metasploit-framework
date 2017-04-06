@@ -352,7 +352,7 @@ class MetasploitModule < Msf::Auxiliary
       nntp telnet whois h323cs h323be h323ls sipinternal sipinternaltls
       sipfederationtls jabber jabber-client jabber-server xmpp-server xmpp-client
       imap certificates crls pgpkeys pgprevokations cmp svcp crl oscp pkixrep
-      smtp hkp hkps)
+      smtp stun stuns hkp hkps)
 
     srv_records_data = []
     srv_record_types.each do |srv_record_type|
